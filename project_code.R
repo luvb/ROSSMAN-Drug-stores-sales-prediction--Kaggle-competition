@@ -18,7 +18,7 @@ library(mlr)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LOAD THE DATA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 getwd()
-setwd("C:/Users/ruthv/OneDrive/BAPM/Self study/Kaggle/Rossman")
+setwd("C:/Self learning/Projects/Rossman Stores Sales Prediction")
 
 Train_rossman = fread("train.csv",nrows = -1,na.strings = "",stringsAsFactors = T)
 Train_store = fread("store.csv",nrows = -1,na.strings = "",stringsAsFactors = T)
